@@ -19,15 +19,16 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-
-        leading: Icon(Icons.home,color: Colors.white,),
+        leading: Icon(
+          Icons.home,
+          color: Colors.white,
+        ),
         elevation: 10.0,
         title: Text(
           "Home",
         ),
         centerTitle: true,
         backgroundColor: Colors.yellow,
-
       ),
       backgroundColor: Colors.lightGreen,
       body: Center(
