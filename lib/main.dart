@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
         ),
         elevation: 10.0,
         title: Text(
-          "Home",
+          "Home Screen",
         ),
         centerTitle: true,
         backgroundColor: Colors.yellow,
