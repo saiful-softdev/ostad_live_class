@@ -37,6 +37,7 @@ class HomeScreen extends StatelessWidget {
               Text("saiful"),
           Image.asset("images/flutter.png",width: 50,height: 50,)
               ,Icon(Icons.home),
+              Icon(Icons.bike_scooter_sharp)
 
             ],
           )
