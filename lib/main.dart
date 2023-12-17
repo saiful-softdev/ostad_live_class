@@ -18,39 +18,32 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
-        leading: Icon(
-          Icons.home,
-          color: Colors.white,
-        ),
-        elevation: 10.0,
-        title: Text(
-          "Home Screen App",
-        ),
         centerTitle: true,
-        backgroundColor: Colors.yellow,
+        title: Text("Main Bar",style: TextStyle(wordSpacing: 2,letterSpacing: 10),),),
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.start,
+
+        children: [
+          Text("Hello"),
+          Text("Hello"),
+          Text("Hello"),
+          Text("Hello"),
+          Text("Hello"),
+          Column(
+
+            children: [
+              Text("saiful"),
+          Image.asset("images/flutter.png",width: 50,height: 50,)
+              ,Icon(Icons.home),
+
+            ],
+          )
+        ],
+        
+
       ),
-      backgroundColor: Colors.lightGreen,
-      body: Center(
-          child: Image.asset(
-        "images/flutter.png",
-        height: 300,
-        width: 300,
-        fit: BoxFit.fill,
-      )
-          // Image.network(
-          // "https://uploads-ssl.webflow.com/5f841209f4e71b2d70034471/60bb4a2e143f632da3e56aea_Flutter%20app%20development%20(2).png"),
-          /*child: Text("hello world sucess,flutter learing very good initiative for presenrt tech",
-          maxLines: 2,
-          textAlign: TextAlign.end,
-          style: TextStyle(fontSize: 25,
-        color: Color(0xFF10C4019),
-        backgroundColor: Colors.red,
-        decoration: TextDecoration.underline,
-        wordSpacing: 10.0,
-          letterSpacing: 1
-        ),),*/
-          ),
     );
   }
 }
