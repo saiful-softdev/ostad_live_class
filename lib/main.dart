@@ -37,6 +37,8 @@ class HomeScreen extends StatelessWidget {
               Text("saiful"),
           Image.asset("images/flutter.png",width: 50,height: 50,)
               ,Icon(Icons.home),
+              Text("Developer"),
+              Text("Flutter"),
               Icon(Icons.bike_scooter_sharp),
               Image.network("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/TheHomeDepot.svg/800px-TheHomeDepot.svg.png",
                 width: 50,height: 100,)
